@@ -1,0 +1,17 @@
+{
+  "name": "nested-or-nothing",
+  "version": "0.1.0",
+  "description": "Get a deeply nested value from an object or undefined if an intermediate key is missing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nested",
+    "json",
+    "object",
+    "maybe"
+  ],
+  "author": "Artem Shitov <inbox@artemshitov.ru>",
+  "license": "BSD-2-Clause"
+}
