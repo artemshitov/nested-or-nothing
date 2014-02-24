@@ -4,7 +4,7 @@
   "description": "Get a deeply nested value from an object or undefined if an intermediate key is missing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index_test.js"
   },
   "keywords": [
     "nested",
