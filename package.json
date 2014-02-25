@@ -12,6 +12,10 @@
     "object",
     "maybe"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artemshitov/nested-or-nothing.git"
+  }
   "author": "Artem Shitov <inbox@artemshitov.ru>",
-  "license": "BSD-2-Clause"
+  "license": "MIT"
 }
