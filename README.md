@@ -2,9 +2,7 @@
 
 A utility function that helps you find deeply nested values in your objects when you don't know for sure if they are present. If any intermediate key is missing, the function returns `undefined`.
 
-## Installing
-
-Install it with NPM as usual:
+## Installation
 
 ```shell
 npm install nested-or-nothing
@@ -31,10 +29,10 @@ non(object, 'a', 'd', 'c'); // returns undefined
 
 ## Caution
 
-Since the function uses strings for keys, your code may break when using static code minifiers like Google Closure Compiler in advanced mode. It is recommended to use other patterns in the browser, such as:
+Since the function uses strings for keys, your code may break when using static code optimizers like Google Closure Compiler in advanced mode. In such cases it is recommended to use safer patterns:
 
 ```js
-(((object.a || {}).b || {}).c || {});
+((object.a || {}).b || {}).c;
 // same as:
 non(object, 'a', 'b', 'c');
 ```
