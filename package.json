@@ -1,6 +1,6 @@
 {
   "name": "nested-or-nothing",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Get a deeply nested value from an object or undefined if an intermediate key is missing",
   "main": "index.js",
   "scripts": {
