@@ -5,7 +5,7 @@ module.exports = function() {
 
   for(var i = 0; i < keys.length; i++) {
     cursor = cursor[keys[i]];
-    if (cursor === void 0)
+    if (cursor == null)
       return void 0;
   }
 
